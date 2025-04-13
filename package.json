@@ -11,6 +11,8 @@
     "@tensorflow/tfjs": "^4.22.0",
     "axios": "^1.8.3",
     "eslint": "^7.32.0",
+    "@babel/eslint-parser": "^7.22.11",
+    "eslint-plugin-react": "^7.33.2",
     "eslint-config-react-app": "^7.0.1",
     "face-api.js": "^0.22.2",
     "firebase": "^11.4.0",
@@ -24,7 +26,9 @@
   },
   "scripts": {
     "start": "react-scripts start",
-    "build": "react-scripts build"
+    "build": "react-scripts build",
+    "lint": "eslint src/",
+  "lint:fix": "eslint src/ --fix"
   },
   "browserslist": {
     "production": [

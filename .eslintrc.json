@@ -1,0 +1,10 @@
+{
+  "parser": "@babel/eslint-parser",
+  "extends": "react-app",
+  "parserOptions": {
+    "requireConfigFile": false,
+    "babelOptions": {
+      "presets": ["@babel/preset-react"]
+    }
+  }
+}

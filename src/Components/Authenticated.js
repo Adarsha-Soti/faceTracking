@@ -79,7 +79,7 @@ const Authenticated = () => {
         formData.password === dummyCredentials.password) {
       setError('');
       console.log('Login successful!');
-      navigate('/facial');
+      navigate('/Dashboard');
     } else {
       setError('Invalid email or password');
     }
