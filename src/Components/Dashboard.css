@@ -1,0 +1,118 @@
+.dashboard-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 20px;
+  }
+  
+  .dashboard-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  
+  .face-recognize-container {
+    width: 100%;
+  }
+  
+  .employee-list-container {
+    width: 100%;
+  }
+  
+  .employee-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin-bottom: 20px;
+  }
+  
+  .employee-table th, 
+  .employee-table td {
+    padding: 12px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+  
+  .employee-table th {
+    background-color: #f5f5f5;
+  }
+  
+  button {
+    padding: 8px 16px;
+    margin: 4px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  .add-btn {
+    background: #007bff;
+    color: white;
+  }
+  
+  .edit-btn {
+    background: #ffc107;
+    color: black;
+  }
+  
+  .delete-btn {
+    background: #dc3545;
+    color: white;
+  }
+  
+  .modal-overlay {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0,0,0,0.5);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  .modal-content {
+    background: white;
+    padding: 20px;
+    border-radius: 8px;
+    width: 400px;
+  }
+  
+  .form-group {
+    margin-bottom: 15px;
+  }
+  
+  .form-group label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  .form-group input {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+  }
+  
+  .modal-actions {
+    margin-top: 20px;
+    text-align: right;
+  }
+  
+  .save-btn {
+    background: #28a745;
+    color: white;
+  }
+  
+  @media (min-width: 768px) {
+    .dashboard-grid {
+      flex-direction: row;
+    }
+    
+    .face-recognize-container {
+      width: 30%;
+    }
+    
+    .employee-list-container {
+      width: 70%;
+    }
+  }

@@ -1,0 +1,41 @@
+{
+  "name": "facetracking",
+  "version": "0.1.0",
+  "private": true,
+  "dependencies": {
+    "@emotion/react": "^11.11.1",
+    "@emotion/styled": "^11.11.0",
+    "@mui/icons-material": "^5.14.19",
+    "@mui/material": "^5.14.19",
+    "@tensorflow-models/coco-ssd": "^2.2.3",
+    "@tensorflow/tfjs": "^4.22.0",
+    "axios": "^1.8.3",
+    "eslint": "^7.32.0",
+    "eslint-config-react-app": "^7.0.1",
+    "face-api.js": "^0.22.2",
+    "firebase": "^11.4.0",
+    "mongoose": "^8.12.1",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-router-dom": "^6.22.1",
+    "react-scripts": "^5.0.1",
+    "react-toastify": "^11.0.5",
+    "react-webcam": "^7.2.0"
+  },
+  "scripts": {
+    "start": "react-scripts start",
+    "build": "react-scripts build"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  }
+}

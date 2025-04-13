@@ -1,0 +1,46 @@
+{
+    "employees": [
+      {
+        "id": 1,
+        "fullName": "Sarah Johnson",
+        "phone": "+1 (555) 234-5678",
+        "picture": "https://picsum.photos/id/1015/200/200.jpg",
+        "boxCount": 42
+      },
+      {
+        "id": 2,
+        "fullName": "Michael Chen",
+        "phone": "+1 (555) 345-6789",
+        "picture": "https://picsum.photos/id/1025/200/200.jpg",
+        "boxCount": 18
+      },
+      {
+        "id": 3,
+        "fullName": "Emma Williams",
+        "phone": "+1 (555) 456-7890",
+        "picture": "https://picsum.photos/id/1035/200/200.jpg",
+        "boxCount": 75
+      },
+      {
+        "id": 4,
+        "fullName": "David Martinez",
+        "phone": "+1 (555) 567-8901",
+        "picture": "https://picsum.photos/id/1045/200/200.jpg",
+        "boxCount": 33
+      },
+      {
+        "id": 5,
+        "fullName": "Olivia Thompson",
+        "phone": "+1 (555) 678-9012",
+        "picture": "https://picsum.photos/id/1055/200/200.jpg",
+        "boxCount": 89
+      },
+      {
+        "id": 6,
+        "fullName": "Adarsha Soti",
+        "phone": "+1 (555) 678-9012",
+        "picture": "/reference_images/default_user.jpg",
+        "boxCount": 89
+      }
+    ]
+  }
