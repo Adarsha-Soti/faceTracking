@@ -1,6 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import FaceRecognize from './FaceRecognize';
 import './Dashboard.css';
+import employeeData from './employees.json';
 
 const Dashboard = () => {
   const [employees, setEmployees] = useState([]);
@@ -14,11 +15,20 @@ const Dashboard = () => {
     boxCount: ''
   });
 
+  // useEffect(() => {
+  //   fetch('/employees.json')
+  //   .then(res => res.json())
+  //   .then(data => setEmployees(data.employees))
+  //   .catch(err => console.error('Error loading employees:', err));
+  // }, []);
   useEffect(() => {
-    fetch('/src/employees.json')
-      .then(res => res.json())
-      .then(data => setEmployees(data.employees))
-      .catch(err => console.error('Error loading employees:', err));
+    const storedEmployees = localStorage.getItem('employeesData');
+    if (storedEmployees) {
+      setEmployees(JSON.parse(storedEmployees));
+    } else {
+      setEmployees(employeeData.employees);
+      localStorage.setItem('employeesData', JSON.stringify(employeeData.employees));
+    }
   }, []);
 
   const handleFaceMatch = (matchedEmployee) => {
